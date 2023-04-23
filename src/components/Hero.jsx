@@ -54,7 +54,7 @@ const Hero = () => {
                 <img
                   src={toggle ? close : menu}
                   alt="menu"
-                  className="w-[28px] h-[28px] object-contain"
+                  className="w-[28px] h-[28px] object-contain z-10"
                   onClick={() => setToggle((prev) => !prev)}
                 />
 
@@ -62,7 +62,7 @@ const Hero = () => {
                 {/* mobile toggle content  */}
                   <div id="menu" className={`${
                       toggle ? "flex" : "hidden"
-                    } mt-20 absolute top-0 bottom-0 flex-col left-0 self-end  w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black`}>
+                    } absolute top-0 bottom-0 flex-col left-0 self-end  w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black`}>
                     <a href="#" className="hover:text-pink-500">About</a>
                     <a href="#" className="hover:text-pink-500">Careers</a>
                     <a href="#" className="hover:text-pink-500">Events</a>
