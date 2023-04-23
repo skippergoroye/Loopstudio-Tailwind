@@ -21,101 +21,101 @@ const Creation = () => {
   return (
     <>
       <section id="creations">
-        <div class="container max-w-6xl mx-auto my-32 px-6 text-gray-900 md:px-0">   
-          <div class="flex justify-center mb-20 md:justify-between">  
-            <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl">Our Creation</h2>
-            <button class="hidden btn md:block">See All</button>
+        <div className="container max-w-6xl mx-auto my-32 px-6 text-gray-900 md:px-0">   
+          <div className="flex justify-center mb-20 md:justify-between">  
+            <h2 className="text-4xl text-center uppercase md:text-left md:text-5xl">Our Creation</h2>
+            <button className="hidden btn md:block">See All</button>
           </div>
 
         
-        <div class="item-container">   
-          <div class="group item">   
-            <img src={DeepDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />  
+        <div className="item-container">   
+          <div className="group item">   
+            <img src={DeepDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />  
 
-            <img src={DeepMobile} alt="" class="w-full" /> 
+            <img src={DeepMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>Deep Earth</h5>  
           </div>
 
 
-          <div class="group item">   
-            <img src={NightDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />  
+          <div className="group item">   
+            <img src={NightDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />  
 
-            <img src={NightMobile} alt="" class="w-full" /> 
+            <img src={NightMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>Night-ac</h5>  
           </div>
 
-          <div class="group item">   
-            <img src={SoccerDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />   
+          <div className="group item">   
+            <img src={SoccerDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />   
 
-            <img src={SoccerMobile} alt="" class="w-full" /> 
+            <img src={SoccerMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>Socker TEAM VR</h5>  
           </div>
 
 
 
-          <div class="group item">   
-            <img src={GridDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />   
+          <div className="group item">   
+            <img src={GridDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />   
 
-            <img src={GridMobile} alt="" class="w-full" />
+            <img src={GridMobile} alt="" className="w-full" />
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>The GRID</h5>  
           </div>
         </div>
 
 
         
-        <div class="item-container mt-10">   
-          <div class="group item">   
-            <img src={AboveDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />   
+        <div className="item-container mt-10">   
+          <div className="group item">   
+            <img src={AboveDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />   
 
-            <img src={AboveMobile} alt="" class="w-full" /> 
+            <img src={AboveMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>From UP Abov VR</h5>  
           </div>
 
 
-          <div class="group item">   
-            <img src={PocketDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" /> 
+          <div className="group item">   
+            <img src={PocketDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" /> 
 
-            <img src={PoccketMobile} alt="" class="w-full" /> 
+            <img src={PoccketMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>POCKET BOREALIS</h5>  
           </div>
 
-          <div class="group item">   
-            <img src={CuriosityDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />  
+          <div className="group item">   
+            <img src={CuriosityDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />  
 
-            <img src={CuriosityMobile} alt="" class="w-full" /> 
+            <img src={CuriosityMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>THE CURIOSITY</h5>  
           </div>
 
 
 
-          <div class="group item">   
-            <img src={FisheyeDesktop} alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />   
+          <div className="group item">   
+            <img src={FisheyeDesktop} alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />   
 
-            <img src={FisheyeMobile} alt="" class="w-full" /> 
+            <img src={FisheyeMobile} alt="" className="w-full" /> 
 
-            <div class="item-gradient"></div> 
+            <div className="item-gradient"></div> 
             <h5>MAKE IT FISHEYE</h5>  
           </div>
         </div>
 
 
         {/* <!---------  Bottom Button container   ---------> */}
-        <div class="flex justify-center mt-10 md:hidden">
-           <button class="btn w-full md:hidden">See All</button>
+        <div className="flex justify-center mt-10 md:hidden">
+           <button className="btn w-full md:hidden">See All</button>
         </div>
       </div>
     </section>
